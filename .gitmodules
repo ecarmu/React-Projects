@@ -1,0 +1,3 @@
+[submodule "PatikaStoreApp"]
+	path = PatikaStoreApp
+	url = https://github.com/ecarmu/PatikaStoreApp-just-front-end-ui-
