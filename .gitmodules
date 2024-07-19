@@ -4,3 +4,6 @@
 [submodule "ToDoApp"]
 	path = ToDoApp
 	url = https://github.com/ecarmu/ToDoApp-just-front-end-ui
+[submodule "TarifApp"]
+	path = TarifApp
+	url = https://github.com/ecarmu/Tarif-App---FrontEndUIApp-tasar-ms-z
