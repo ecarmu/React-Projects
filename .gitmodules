@@ -1,3 +1,6 @@
 [submodule "PatikaStoreApp"]
 	path = PatikaStoreApp
 	url = https://github.com/ecarmu/PatikaStoreApp-just-front-end-ui-
+[submodule "ToDoApp"]
+	path = ToDoApp
+	url = https://github.com/ecarmu/ToDoApp-just-front-end-ui
