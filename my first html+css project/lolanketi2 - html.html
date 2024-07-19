@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <form action="lolanket.html" method="GET">
+        <h1> LoL || Takım Arkadaşı Değerlendirme Anketi </h1>
+
+        <br>
+
+        <label for="username">Username</label>
+        <input type="text" id="username" name="username">
+
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password">
+        <!-- normalde giriş ile anket aynı yerde olmaz; ama ben üşendim -->
+
+        <br>
+        <br>
+        <br>
+
+        <label for="bilinen hero sayısı">Kaç tane hero' yu oynamayı biliyor?</label>
+        <input type="number" name="bilinen hero sayısı" id="bilinen hero sayısı" min="0" max="160">
+
+        <br>
+        <br>
+
+        <label for="oynama yılı">Kaç yıldır LoL oynuyor bu Sihirdar?</label>
+        <input type="number" name="oynama yılı" id="oynama yılı" min="0" max="13">
+
+        <br>
+        <br>
+
+        <label for="yetenek">"Yetenek Puanlama Sistemi" ne göre puanı kaç? (toplam oynama yılı/derece) </label>
+        <br>
+        *demir=2 bronz=3 ... challenger = 10
+        <br>
+        <label for="yetenek">0</label>
+        <input type="range" name="yetenek" id="yetenek" min="0" max="10">
+        <label for="yetenek">10</label>
+
+        <br>
+        <br>
+
+        <label for="zevk">Takım Arkaşınla Oynarken Nasıl Hisler Yaşıyorsun?</label>
+        <br>
+        <label for="zevk">Mental Çöküntü</label>
+        <input type="range" name="zevk" id="zevk" min="1" max="5">
+        <label for="zevk">Bu bir Onur!</label>
+
+        <br>
+        <br>
+
+        <label for="lane">En iyi oynadığı lane hangisi?</label>
+        <select name="lane" id="lane">
+            <option value="top">Top</option>
+            <option value="mid">Mid</option>
+            <option value="jungle">Jungle</option>
+            <option value="bottom">Bottom</option>
+            <option value="her lane">Top + Mid + Jungle + Bottom</option>
+            <option value="base">Base</option>
+        </select>
+
+        <br>
+        <br>
+
+        <label for="kendini tanımla">Diğer Takım arkadaşların, o sihirdarı nasıl tanımlar? (seçeneklerden ona uygun
+            olanı yoksa kendin ekleyebilirsin!)</label>
+        <input list="tanımlar" id="kendini tanımla" name="kendini tanımla">
+        <datalist id="tanımlar">
+            <option value="İyi Lider">Liderlik, strateji</option>
+            <option value="Sakin Kaldı">Eğilme Korumalı, SoğukSakin Kaldı!</option>
+            <option value="gg">Takım oyuncusu, arkadaş canlısı</option>
+            <option value="kolsuz">Biraz kolsuz</option>
+        </datalist>
+        <br>
+        <br>
+
+        <label for="tavsiye">Takım arkadaşına bazı tavsiyelerde bulun</label>
+        <br>
+        <textarea name="tavsiye" id="tavsiye" placeholder="zorunlu değil" rows="10" cols="80"></textarea>
+
+        <br>
+        <br>
+
+        <label for="plot twist">Plot Twist!</label>
+        <br>
+        <textarea name="plot twist" id="plot twist" placeholder="Sence, takım arkadaşın senin hakkında ne düşünüyor?"
+            rows="10" cols="80" required></textarea>
+
+        <br>
+        <br>
+        <input type="submit" value="gönder">
+    </form>
+</body>
+
+</html>

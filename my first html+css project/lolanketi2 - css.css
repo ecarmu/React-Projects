@@ -1,0 +1,42 @@
+/* CSS styles */
+h1 {
+    font-family: Impact, sans-serif;
+    color: #CE5937;
+}
+
+body {
+    background-color: yellow;
+}
+
+
+.p1_lbl {
+    font-weight: bold;
+    font-size: 23;
+    font-family: "Courier New";
+}
+
+#username {
+    background-color: aqua;
+    color: red;
+}
+
+/*input[value*='a']{
+    color: red;
+}
+*/
+
+#password {
+    width: 350px;
+}
+
+.p2_lbl {
+    opacity: 0.5;
+}
+
+p#söz {
+    color: blue;
+}
+
+p span {
+    color: red;
+}
