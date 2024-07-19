@@ -1,3 +1,12 @@
 [submodule "PatikaStoreApp"]
 	path = PatikaStoreApp
 	url = https://github.com/ecarmu/PatikaStoreApp-just-front-end-ui-
+[submodule "ToDoApp"]
+	path = ToDoApp
+	url = https://github.com/ecarmu/ToDoApp-just-front-end-ui
+[submodule "TarifApp"]
+	path = TarifApp
+	url = https://github.com/ecarmu/Tarif-App---FrontEndUIApp-tasar-ms-z
+[submodule "kodworkApp"]
+	path = kodworkApp
+	url = https://github.com/ecarmu/kodwork-just-front-end-ui-store-lu---asyncstorage-siz-
