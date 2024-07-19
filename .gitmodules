@@ -7,3 +7,6 @@
 [submodule "TarifApp"]
 	path = TarifApp
 	url = https://github.com/ecarmu/Tarif-App---FrontEndUIApp-tasar-ms-z
+[submodule "kodworkApp"]
+	path = kodworkApp
+	url = https://github.com/ecarmu/kodwork-just-front-end-ui-store-lu---asyncstorage-siz-
