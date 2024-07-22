@@ -1,2 +1,2 @@
 # React-Projects
-My projects related to React
+All the projects I had done while I was learning about React can be found here
